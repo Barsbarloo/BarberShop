@@ -1,0 +1,31 @@
+<h2>Visit </h2>
+<p>In this page you can make online queue to our Barber Shop </p>
+
+
+<form action="/visit" method="POST">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Your name</label>
+    <input type name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<%= @username %>">
+    </div>
+
+    <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Your Mobile phone number</label>
+    <input type name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<%= @phone %>">
+    </div>
+
+    <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Date and Time</label>
+    <input type name="datetime" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<%= @datetime %>">
+    </div>
+    <label for="baber">Выбор парикмахера</label>
+    <select name="baber">
+      <option value="none" selected>Выберите парикмахера...</option>
+      <option value="Петрович">Петрович</option>
+      <option value="Макарыч">Макарыч</option>
+      <option value="Федорыч">Федорыч</option>
+    </select>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  
+</form>
+  

@@ -1,0 +1,4 @@
+User: Bars, phone: 099866677, date and time: 15/01/21. Barber: Петрович.
+User: lkmk, phone: lklk, date and time: l,l,. Barber: Петрович.
+User: Ivan, phone: , date and time: 11. Barber: none.
+User: Ivan, phone: 1213131231, date and time: 15/01/21. Barber: none.
